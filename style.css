@@ -1,0 +1,124 @@
+body {
+  font-family: 'Fira Mono', 'Consolas', 'Menlo', monospace;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2.5rem;
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  color: #e0e0e0;
+  box-shadow: 0 0 24px #0008;
+  border-radius: 12px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.retro-title {
+  font-size: 2.5rem;
+  font-family: 'Fira Mono', 'Consolas', monospace;
+  color: #00ff90;
+  text-shadow: 0 0 8px #00ff90, 0 0 2px #000;
+  letter-spacing: 1px;
+  margin-bottom: 0.2em;
+}
+
+.prompt {
+  color: #fff200;
+  background: #232526;
+  padding: 0 0.3em;
+  border-radius: 3px;
+  font-weight: bold;
+  margin-right: 0.2em;
+}
+
+.subtitle {
+  color: #b2fffa;
+  font-size: 1.2rem;
+  margin-bottom: 0.5em;
+}
+
+nav a {
+  color: #00e6ff;
+  text-decoration: none;
+  margin: 0 0.5em;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+nav a:hover {
+  color: #fff200;
+}
+
+section {
+  background: rgba(30, 30, 40, 0.85);
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  padding: 1.5rem 1.5rem 1rem 1.5rem;
+  box-shadow: 0 2px 12px #0004;
+}
+
+h2 {
+  color: #fff200;
+  font-family: 'Fira Mono', monospace;
+  margin-bottom: 0.7em;
+  text-shadow: 0 0 4px #fff20088;
+}
+
+.skills-list {
+  list-style: square inside;
+  margin: 0.5em 0 0 0;
+  padding: 0;
+}
+
+.project-card {
+  background: #232526;
+  border-left: 5px solid #00ff90;
+  margin-bottom: 1.2em;
+  padding: 1em 1.2em;
+  border-radius: 6px;
+  box-shadow: 0 1px 8px #0003;
+}
+.project-card h3 {
+  color: #00ff90;
+  margin-top: 0;
+  font-family: 'Fira Mono', monospace;
+}
+.project-card a {
+  color: #00e6ff;
+  text-decoration: underline;
+}
+
+.education .coursework {
+  color: #b2fffa;
+  font-size: 1rem;
+  margin-top: 0.5em;
+}
+
+.activities ul {
+  list-style: disc inside;
+  margin: 0.5em 0 0 0.5em;
+  padding: 0;
+}
+
+.footer-retro {
+  text-align: center;
+  color: #00ff90;
+  font-family: 'Fira Mono', monospace;
+  margin-top: 2.5rem;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  text-shadow: 0 0 6px #00ff90;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 0.5rem;
+    max-width: 100vw;
+  }
+  section {
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
+  }
+  .retro-title {
+    font-size: 1.5rem;
+  }
+}
